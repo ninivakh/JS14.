@@ -1,0 +1,28 @@
+#circle1{
+    background-color: blue;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    transform: translate(100%, );
+    left: 0;
+    position: absolute;
+}
+#click1{
+    border-radius: 20px;
+    border-color: black;
+    width: 100px;
+    background-color: beige;
+    position: absolute;
+    top: 20%;
+}
+#circle1.green{
+    position: absolute;
+    right: 0;
+    background-color: green;
+    transition: all 1s !important;
+    left: 100%;
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+}
